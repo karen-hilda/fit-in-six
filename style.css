@@ -9,7 +9,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 img {
@@ -24,6 +23,7 @@ img {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .actions button {
@@ -44,8 +44,9 @@ img {
 }
 
 .text {
+    background-color: black;
     color: white;
-    font-size: xx-large;
+    font-size: 60px;
     position: absolute;
     top: 50%;
     left: 50%;
