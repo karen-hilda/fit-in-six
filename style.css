@@ -55,26 +55,3 @@ img {
     background-color: rgb(31, 62, 119);
     color: white;
 }
-
-.container img {
-    width: 100vw;
-    height: 800px;
-}
-
-.container {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-}
-
-.text {
-    background-color: black;
-    color: white;
-    font-size: 60px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-}
