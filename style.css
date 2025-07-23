@@ -148,3 +148,80 @@ img {
 .img-3 {
     background-image: url("images/nutri.jpeg");
 }
+.footer {
+    width: 100vw;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+.footer-section-1 {
+    height: 80%;
+    background-color: black;
+    display: flex;
+
+}
+
+.footer-container-image {
+    width: 30%;
+    background: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container-image .image {
+    width: 200px;
+    height: 200px;
+    background: absolute;
+    background-image: url(fit-in-six.png) ;
+    background-size: cover;
+}
+
+.footer-actions {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-actions button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: transparent;
+    border: 0;
+    font-size: 17px;
+}
+
+.action-button {
+    display: flex;
+    gap: 80px
+}
+
+
+
+.footer-section-2 {
+    height: 20%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.left button {
+    text-decoration: underline;
+    border: 0;
+    background-color: transparent;
+    color:black
+}
+
+
+
+
