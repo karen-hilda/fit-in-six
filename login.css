@@ -5,15 +5,47 @@ body {
     align-items: center;
 }
 
+.mi-error {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(131, 21, 21);
+    color: rgb(131, 21, 21);
+    background-color: rgb(233, 140, 140);
+    padding: 5px;
+    width: 100%;
+    height: 50px;
+    border-radius: 12px;
+    margin: auto;
+
+}
+
+.ok {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(19, 97, 39);
+    color: rgb(19, 97, 39);
+    background-color: rgb(145, 218, 163);
+    padding: 5px;
+    width: 100%;
+    height: 50px;
+    border-radius: 12px;
+    margin: auto;
+
+}
+
+
 .login {
-    background-color: black;
+/* background-color: black; */
     width: 600px;
     height: 800px;
     margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .symbol {
-    background-color: blue;
+/* background-color: blue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,29 +53,28 @@ body {
 }
 
 .symbol img {
-    background-color: aqua;
+/* background-color: aqua; */
     width: 100px;
     height: 100px;
 }
 
 .welcome {
-    background-color: blueviolet;
+/* background-color: blueviolet; */
     height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     gap: 15px;
 }
 
 .welcome-string {
-    background-color: aquamarine;
+/* background-color: aquamarine; */
     font-size: 50px;
 }
 
 .input {
-    background-color: brown;
+/* background-color: brown; */
     height: 20%;
     display: flex;
     justify-content: center;
@@ -58,7 +89,7 @@ body {
 
 .remember-me {
     height: 10%;
-    background-color: blueviolet;
+/* background-color: blueviolet; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +97,7 @@ body {
 
 .enter {
     height: 10%;
-    background-color: aquamarine;
+/* background-color: aquamarine; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,7 +105,7 @@ body {
 
 .options {
     height: 10%;
-    background-color: burlywood;
+/* background-color: burlywood; */
     display: flex;
     justify-content: center;
     align-items: center;

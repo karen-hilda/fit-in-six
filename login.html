@@ -15,10 +15,14 @@
             <div class="welcome-string">Bienvenido</div>
             <div class="subtitle">Inicie sesión a continuación para acceder a su cuenta</div>
         </div>
+        <div id="error" class="mi-error">Usuario incorrecto</div>
+        <div id="mensaje-ok" class="ok">Usuario correcto</div>
+
         <div class="input">
             <div class="email">
                 Ingrese su correo electrónico
                 <input type="email" name="correo" id="email">
+                
             </div>
             <div class="password">
                 Ingrese su contraseña
@@ -30,7 +34,7 @@
             Recordarme
         </div>
         <div class="enter">
-            <button type="submit" value="Entrar">Entrar</button>
+            <button onclick="logear()">Entrar</button>
         </div>
         <div class="options">
             <a href="">Olvidaste tu contraseña</a>
@@ -38,5 +42,6 @@
         </div>
 
     </div>
+    <script src="login.js"></script>
  </body>
  </html>
