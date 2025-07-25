@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    background-color: black;
+    width: 600px;
+    height: 800px;
+    margin-top: 50px;
+}
+
+.symbol {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+.symbol img {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+.welcome {
+    background-color: blueviolet;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap: 15px;
+}
+
+.welcome-string {
+    background-color: aquamarine;
+    font-size: 50px;
+}
+
+.input {
+    background-color: brown;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 25%;
+}
+
+.input input {
+    width: 80%;
+}
+
+.remember-me {
+    height: 10%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enter {
+    height: 10%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+    height: 10%;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
